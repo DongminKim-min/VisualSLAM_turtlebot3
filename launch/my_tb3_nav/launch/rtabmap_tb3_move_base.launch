@@ -1,0 +1,29 @@
+<launch>
+  <!-- We are on a real robot, no Gazebo time -->
+  <param name="use_sim_time" value="false" />
+
+  <node pkg="move_base" type="move_base" name="move_base" output="screen">
+    <!-- Use RTAB-Map's occupancy grid as "map" -->
+    <remap from="map" to="/rtabmap/grid_map" />
+    
+    <!-- TurtleBot3 Burger navigation params -->
+    <rosparam file="$(find turtlebot3_navigation)/param/costmap_common_params_burger.yaml" command="load" />
+    <rosparam file="$(find turtlebot3_navigation)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find turtlebot3_navigation)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find turtlebot3_navigation)/param/dwa_local_planner_params_burger.yaml" command="load" />
+
+    <!-- Planners -->
+    <param name="base_global_planner" value="navfn/NavfnROS" />
+    <param name="base_local_planner"  value="dwa_local_planner/DWAPlannerROS" />
+
+    <!-- Frames (match your RTAB-Map & TF) -->
+    <param name="global_costmap/global_frame"       value="map" />
+    <param name="global_costmap/robot_base_frame"   value="base_footprint" />
+    <param name="local_costmap/global_frame"        value="odom" />
+    <param name="local_costmap/robot_base_frame"    value="base_footprint" />
+
+    <!-- Some reasonable frequencies -->
+    <param name="planner_frequency"    value="1.0" />
+    <param name="controller_frequency" value="10.0" />
+  </node>
+</launch>

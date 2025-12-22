@@ -1,0 +1,35 @@
+<launch>
+  <!-- Convert RealSense PointCloud2 -> LaserScan slice at specific height -->
+  <node pkg="pointcloud_to_laserscan"
+        type="pointcloud_to_laserscan_node"
+        name="rs_cloud_to_scan"
+        output="screen">
+
+    <!-- INPUT: RealSense point cloud topic -->
+    <remap from="cloud_in" to="/camera/depth/color/points"/>
+
+    <!-- OUTPUT: LaserScan (we'll use as /scan) -->
+    <remap from="scan" to="/scan"/>
+
+    <rosparam>
+      # Frame for height interpretation (Z axis)
+      target_frame: base_footprint
+
+      # Only use points whose Z (in base_footprint) is between these heights [m]
+      min_height: 0.25
+      max_height: 0.30  
+
+      # LaserScan angular limits (full 360 degrees)
+      angle_min: -3.14159
+      angle_max:  3.14159
+      angle_increment: 0.0087  # ~0.5 deg per ray
+
+      # Range limits [m]
+      range_min: 0.1
+      range_max: 2.0
+
+      use_inf: true
+    </rosparam>
+  </node>
+</launch>
+
