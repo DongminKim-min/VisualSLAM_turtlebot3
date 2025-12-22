@@ -1,0 +1,28 @@
+# ===== ROS =====
+build/
+devel/
+install/
+log/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+
+# ===== Jetson / Linux =====
+.cache/
+*.swp
+.DS_Store
+
+# ===== SLAM / CV outputs =====
+*.bag
+*.db
+*.sqlite
+*.ply
+*.pcd
+*.onnx
+*.pt
+*.pth
+
+# ===== VSCode =====
+.vscode/
