@@ -62,20 +62,10 @@ We performed multiple loop traversals so that RTAB-Map could accumulate loop-clo
 ![Image](https://github.com/user-attachments/assets/17acc730-f338-46f8-bd03-c066357c3b8d)
 
 ## References
-https://wiki.ros.org/rtabmap_ros/noetic_and_newer
-https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
-https://wiki.ros.org/rtabmap_ros/Tutorials/MappingAndNavigationOnTurtlebot
+https://wiki.ros.org/rtabmap_ros/noetic_and_newer \
+https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping \
+https://wiki.ros.org/rtabmap_ros/Tutorials/MappingAndNavigationOnTurtlebot \
 https://github.com/introlab/rtabmap/wiki/Change-parameters
-
-## Repository Structure (Recommended)
-```txt
-.
-├─ launch/           # roslaunch 파일
-├─ config/           # YAML params (rtabmap, nav, costmap 등)
-├─ scripts/          # 실행/자동화 스크립트(optional)
-├─ docs/             # 결과 이미지, GIF, 데모 자료
-└─ README.md
-
 
 
 
