@@ -7,9 +7,6 @@ This project demonstrates an **RGB-D, graph-based SLAM** pipeline on a mobile ro
 - **SLAM:** RTAB-Map (loop-closure + graph optimization)
 - **Visualization:** RViz
 - **Deployment:** Jetson Xavier NX (SSH remote), ROS1 environment
-- 
-## Goal
-- **Mapping:** 환경 지도 생성 및 loop closure를 통한 pose drift 감소
 
 ## Mapping
 Navigation 영상 넣기!
@@ -70,5 +67,6 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
 
