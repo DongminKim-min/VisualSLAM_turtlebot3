@@ -9,7 +9,7 @@ This project demonstrates an **RGB-D, graph-based SLAM** pipeline on a mobile ro
 - **Deployment:** Jetson Xavier NX (SSH remote), ROS1 environment
 
 ## Mapping
-Navigation 영상 넣기!
+https://github.com/user-attachments/assets/424e7ed0-a6dc-4718-93cc-ae7a607b69dc
 
 ## System Setup
 
@@ -34,7 +34,7 @@ Navigation 영상 넣기!
 
 
 ## Target Environment for Mapping
-사진 넣기!
+![Image](https://github.com/user-attachments/assets/127b760d-c1bf-43c7-803f-473ba0890924)
 
 ## Issues
 
@@ -55,7 +55,7 @@ Navigation 영상 넣기!
   Tuned relevant RTAB-Map parameters `thresholds` and `OptimizeMaxError`
 
 ## Refined Map Results
-사진 넣기!
+![Image](https://github.com/user-attachments/assets/17acc730-f338-46f8-bd03-c066357c3b8d)
 
 ## References
 https://wiki.ros.org/rtabmap_ros/noetic_and_newer
@@ -71,6 +71,7 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
 
 
