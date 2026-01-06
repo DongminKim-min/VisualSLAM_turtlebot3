@@ -27,7 +27,7 @@ Navigation 영상 넣기!
 - Sensor driver: `realsense2_camera` (Intel RealSense SDK)
 
 ## Graph-based SLAM
-![Image](https://github.com/user-attachments/assets/553516d8-ecd6-4704-aec5-83d92a6b10a4)
+![Image](https://github.com/user-attachments/assets/553516d8-ecd6-4704-aec5-83d92a6b10a4) ![Image](https://github.com/user-attachments/assets/f496cf94-7f43-4774-a268-e12da8e2a143)
 ## Target Environment for Mapping
 사진 넣기!
 
@@ -66,6 +66,7 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
 
 
