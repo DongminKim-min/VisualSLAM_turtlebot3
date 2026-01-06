@@ -31,7 +31,6 @@ https://github.com/user-attachments/assets/424e7ed0-a6dc-4718-93cc-ae7a607b69dc
 
 ## Graph-based SLAM
 We performed multiple loop traversals so that RTAB-Map could accumulate loop-closure constraints and reduce pose estimation error via graph-based least-squares optimization.
-/
 <p align="center">
   <img src="https://github.com/user-attachments/assets/553516d8-ecd6-4704-aec5-83d92a6b10a4" width="48%" />
   <img src="https://github.com/user-attachments/assets/f496cf94-7f43-4774-a268-e12da8e2a143" width="48%" />
@@ -76,6 +75,7 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
 
 
