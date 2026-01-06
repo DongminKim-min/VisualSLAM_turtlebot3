@@ -1,6 +1,6 @@
 # Visual SLAM Project — RGB-D Graph-based SLAM(ROS1 / RTAB-Map)
 
-> Task: Deployed RTAB-Map RGB-D SLAM on TurtleBot3 running on Jetson Xavier NX and validated mapping/localization in RViz(visualization tool).
+> Deployed RTAB-Map RGB-D SLAM on TurtleBot3 running on Jetson Xavier NX and validated mapping/localization in RViz(visualization tool).
 
 ## Overview
 This project demonstrates an **RGB-D, graph-based SLAM** pipeline on a mobile robot.
@@ -73,6 +73,7 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
 
 
