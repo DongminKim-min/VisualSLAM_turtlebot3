@@ -8,7 +8,7 @@ This project demonstrates an **RGB-D, graph-based SLAM** pipeline on a mobile ro
 - **Visualization:** RViz
 - **Deployment:** Jetson Xavier NX (SSH remote), ROS1 environment
 
-## Mapping
+## Initial Mapping
 Note that there's an issue in loop closing!
 I addressed this issue and there's a refined version below.
 
@@ -66,6 +66,7 @@ https://wiki.ros.org/rtabmap_ros/noetic_and_newer \
 https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping \
 https://wiki.ros.org/rtabmap_ros/Tutorials/MappingAndNavigationOnTurtlebot \
 https://github.com/introlab/rtabmap/wiki/Change-parameters
+
 
 
 
