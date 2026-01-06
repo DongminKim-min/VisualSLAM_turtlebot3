@@ -9,6 +9,8 @@ This project demonstrates an **RGB-D, graph-based SLAM** pipeline on a mobile ro
 - **Deployment:** Jetson Xavier NX (SSH remote), ROS1 environment
 
 ## Mapping
+Note that there's an issue in loop closing!
+I addressed this issue and there's a refined version below.
 https://github.com/user-attachments/assets/424e7ed0-a6dc-4718-93cc-ae7a607b69dc
 
 ## System Setup
@@ -71,6 +73,7 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
 
 
