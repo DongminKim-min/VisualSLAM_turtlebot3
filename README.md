@@ -8,15 +8,11 @@ This project demonstrates an **RGB-D, graph-based SLAM** pipeline on a mobile ro
 - **Visualization:** RViz
 - **Deployment:** Jetson Xavier NX (SSH remote), ROS1 environment
 - 
-### Goal
+## Goal
 - **Mapping:** 환경 지도 생성 및 loop closure를 통한 pose drift 감소
-
----
 
 ## Mapping
 Navigation 영상 넣기!
-
----
 
 ## System Setup
 
@@ -33,13 +29,12 @@ Navigation 영상 넣기!
 - Visualization: RViz
 - Sensor driver: `realsense2_camera` (Intel RealSense SDK)
 
----
 ## Graph-based SLAM
 사진 넣기!
----
+
 ## Target Environment for Mapping
 사진 넣기!
----
+
 ## Issues
 
 ### Topic Synchronization Issue (Early Mapping Problem)
@@ -57,11 +52,10 @@ Navigation 영상 넣기!
 - Actions
   Monitored loop-closure status via RViz/RTAB-Map logs
   Tuned relevant RTAB-Map parameters `thresholds` and `OptimizeMaxError`
----
+
 ## Refined Map Results
 사진 넣기!
 
----
 ## References
 https://wiki.ros.org/rtabmap_ros/noetic_and_newer
 https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
@@ -76,4 +70,5 @@ https://github.com/introlab/rtabmap/wiki/Change-parameters
 ├─ scripts/          # 실행/자동화 스크립트(optional)
 ├─ docs/             # 결과 이미지, GIF, 데모 자료
 └─ README.md
+
 
